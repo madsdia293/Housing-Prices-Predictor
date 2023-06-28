@@ -34,6 +34,19 @@ The following models are created and evaluated:
 - Random Forest Regression: A random forest regression model is trained on the standardized training data using the RandomForestRegressor class from scikit-learn. The model learns the non-linear relationship between the features and the target variable using an ensemble of decision trees.
 - Hyperparameter Tuning: Grid search is performed on the random forest model using the GridSearchCV class from scikit-learn to find the best combination of hyperparameters that minimizes the negative mean squared error. The best estimator is selected based on the grid search results.
 
-## Conclusion
+## Requirements
 
-The project demonstrates the process of predicting housing prices using machine learning techniques. By engineering new features and training different models, we can improve the accuracy of the predictions. The linear regression and random forest regression models provide insights into the relationships between the features and the target variable. Hyperparameter tuning further enhances the performance of the random forest model.
+To run this project, you will need the following:
+
+Python 3.x: The project is implemented in Python, so make sure you have Python 3.x installed on your system.
+
+Jupyter Notebook: Jupyter Notebook is used for executing the project code. Install Jupyter Notebook by running the following command in your terminal:
+    pip install jupyter
+
+Required Python libraries: The project relies on various Python libraries such as pandas, scikit-learn, and matplotlib. Install these libraries by running the following command:
+    pip install pandas numpy scikit-learn matplotlib seaborn
+
+Housing dataset: The project requires a housing dataset in CSV format. You can obtain the dataset from:
+    https://www.kaggle.com/datasets/camnugent/california-housing-prices
+    
+Once you have fulfilled these requirements, you can proceed to execute the project code and follow the steps outlined in the project overview section of this README file.
