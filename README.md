@@ -1,6 +1,8 @@
 # Housing-Prices-Predictor
 
-This project aims to predict housing prices using machine learning techniques. It involves exploring and preprocessing the data, engineering new features, training linear regression and random forest regression models, and evaluating their performance. The project is implemented in Python.
+This project aims to predict housing prices in California using machine learning techniques. It involves exploring and preprocessing the data, engineering new features, training linear regression and random forest regression models, and evaluating their performance. The project is implemented in Python.
+
+Link to the data set: https://www.kaggle.com/datasets/camnugent/california-housing-prices
 
 ## Overview
 
